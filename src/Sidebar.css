@@ -1,0 +1,43 @@
+.sidebar {
+  flex-direction: column;
+  flex: 0.165;
+  background-color: #f6f8fc;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+
+.write__button {
+  background-color: #c2e7fd !important;
+  padding: 14.5px !important;
+  padding-right: 20px !important;
+  margin-right: 90px !important;
+  line-height: 26px !important;
+  font-weight: 450 !important;
+  font-size: 14px !important;
+  text-transform: inherit !important;
+  border-radius: 18px !important;
+  margin-bottom: 15px !important;
+}
+
+.pencil__icon {
+  height: 25px !important;
+  width: 25px !important;
+  margin-right: 10px;
+}
+
+.sidebar_footerTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar_footerTitle > h3 {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+.sidebar_footerTitle > .MuiButtonBase-root {
+  height: 40px;
+  width: 40px;
+}

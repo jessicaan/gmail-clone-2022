@@ -1,0 +1,83 @@
+.emailList {
+  flex: 1;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.emailList__list {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 100vh;
+  background-color: white;
+}
+
+.emailList__settings {
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  position: sticky;
+  top: 8%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.emailList_settingsLeft {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.emailList_settingsLeft > .MuiIconButton-root {
+  color: black;
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+}
+
+.emailList_checkbox {
+  margin-left: 15px;
+  margin-right: -40px;
+}
+
+.emailList_checkbox > .MuiIconButton-root {
+  border-radius: 5px;
+  height: fit-content;
+  width: 5%;
+  color: black;
+}
+
+.emailList_settingsRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.emailList__settingsRight .MuiIconButton-root {
+  color: black;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.email__count {
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+}
+
+.emailList_email__count {
+  border-radius: 5px !important;
+  padding: 5px;
+}
+
+.emailList__sections {
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid whitesmoke;
+}

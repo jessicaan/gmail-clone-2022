@@ -1,0 +1,86 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f6f8fc;
+  padding: 6px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 65px;
+}
+
+.header__left > img {
+  object-fit: contain;
+  height: 40px;
+  margin-left: 5px;
+}
+
+.header__middle {
+  display: flex;
+  align-items: center;
+  background-color: #eaf1fb;
+  border-radius: 8px;
+  flex: 0.7;
+  padding: 1px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+.header__middle > input {
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Google Sans", Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+  flex: 1;
+  padding: 8px;
+  outline: none;
+}
+
+.header__middle > .MuiSvgIcon-root {
+  margin-right: 10px;
+  color: black;
+  margin-left: 10px;
+}
+
+.tuneIcon {
+  color: black;
+}
+
+.header__empty {
+  display: flex;
+  flex: 0.2;
+  margin-right: 40px;
+}
+
+.header__right {
+  display: flex;
+  flex: 0.2;
+  align-items: center;
+  justify-content: space-evenly;
+  color: gray;
+  margin-right: 10px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+}
+
+.header__right > .MuiAvatar-root {
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border: double 8px #eaf1fb;
+  border-radius: 80px;
+  background-image: linear-gradient(white, white),
+    radial-gradient(circle at left top, #ff0000, #0076ff, #fec837, #33a500);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}

@@ -1,0 +1,7 @@
+.sidebar__right {
+  display: flex;
+  flex-direction: column;
+  flex: 0.1;
+  background-color: #f6f8fc;
+  position: sticky;
+}
