@@ -1,5 +1,5 @@
 import React from "react";
-import "./Mail.css";
+import "./styles/Mail.css";
 
 import ArrowBackOutlinedIcon from "@mui/icons-material/ArrowBackOutlined";
 import ArchiveOutlinedIcon from "@mui/icons-material/ArchiveOutlined";

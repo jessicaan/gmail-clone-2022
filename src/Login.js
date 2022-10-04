@@ -1,6 +1,6 @@
 import { Button } from "@material-ui/core";
 import React from "react";
-import "./Login.css";
+import "./styles/Login.css";
 import { auth, provider } from "./firebase";
 import { useDispatch } from "react-redux";
 import { logIn } from "./features/userSlice";

@@ -1,5 +1,5 @@
 import React from "react";
-import "./SendMail.css";
+import "./styles/SendMail.css";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import { Button } from "@material-ui/core";
 import { useForm } from "react-hook-form";
@@ -69,7 +69,7 @@ function SendMail() {
         {errors.subject && (
           <p className="errors__message">*Informe o assunto do e-mail</p>
         )}
-        <input
+        <textarea
           name="message"
           type="text"
           className="editMailMessage"

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Section.css";
+import "./styles/Section.css";
 
 function Section({ Icon, title, color, selected }) {
   return (

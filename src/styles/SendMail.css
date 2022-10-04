@@ -1,10 +1,10 @@
 .sendMail {
   position: fixed;
-  bottom: 12%;
+  bottom: 2%;
   right: 50px;
   background-color: white;
   width: 40%;
-  height: 50%;
+  height: 60%;
   max-width: 500px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
@@ -53,11 +53,21 @@
   outline: none;
   border: none;
   border-bottom: 1px solid whitesmoke;
+  overflow-wrap: break-word !important;
 }
 
 .editMailMessage {
   flex: 1 !important;
+  resize: none;
+  text-align: flex-start;
+  line-height: 20px;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  margin: 10px;
+  outline: none;
 }
+
 .sendMail__options > .MuiButton-root {
   background-color: #0c57d0;
   color: white;
@@ -66,6 +76,7 @@
   text-transform: inherit !important;
   margin-left: 15px;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .sendMail__options {

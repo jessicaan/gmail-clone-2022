@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./EmailList.css";
+import "./styles/EmailList.css";
 
 import { Checkbox, IconButton } from "@material-ui/core";
 import ArrowDropDownOutlinedIcon from "@mui/icons-material/ArrowDropDownOutlined";

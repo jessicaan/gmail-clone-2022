@@ -1,5 +1,5 @@
 import React from "react";
-import "./SidebarRight.css";
+import "./styles/SidebarRight.css";
 
 function SidebarRight() {
   return <div className="sidebar__right"></div>;

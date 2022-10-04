@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import "./App.css";
+import "./styles/App.css";
 import EmailList from "./EmailList";
 import { selectSendMessageIsOpen } from "./features/mailSlice";
 import { logIn, selectUser } from "./features/userSlice";

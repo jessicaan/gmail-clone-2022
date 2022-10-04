@@ -2,7 +2,7 @@ import { IconButton, Checkbox } from "@material-ui/core";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import LabelImportantTwoToneIcon from "@mui/icons-material/LabelImportantTwoTone";
 import React from "react";
-import "./EmailRow.css";
+import "./styles/EmailRow.css";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { selectMail } from "./features/mailSlice";

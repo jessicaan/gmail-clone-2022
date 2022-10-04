@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+import "./styles/Header.css";
 import MenuIcon from "@mui/icons-material/Menu";
 import { Avatar, IconButton } from "@material-ui/core";
 import SearchIcon from "@mui/icons-material/Search";

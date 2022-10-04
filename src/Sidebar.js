@@ -1,6 +1,6 @@
 import React from "react";
 import EditOutlinedIcon from "@mui/icons-material/EditOutlined";
-import "./Sidebar.css";
+import "./styles/Sidebar.css";
 import { Button, IconButton } from "@material-ui/core";
 import InboxRoundedIcon from "@mui/icons-material/InboxRounded";
 import SidebarOption from "./SidebarOption";
